@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+#top_part{
+    background-color: #cffcfc;
+    position: relative;
+    height: 630px;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+    color: #2f694e;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #2f694e;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h3{ 
+    font-family: 'Montserrat', sans-serif;
+    color: #40bda2;
+    padding-top: 0;
+}
+
+p{
+    line-height: 40px;
+}
+
+.top_cloud{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+
+}
+
+.bottom_cloud{
+    position: absolute;
+    bottom: 350px;
+    left: 300px;
+}
+
+.bottom_mountain{
+    position: absolute;
+    bottom: 0;
+    left: 480px;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: #e2e2e2;
+    border-width: 5px;
+    margin: 100px auto;
+}
+
+#mid_part{
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 100px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile_pic{
+    margin: 20px auto;
+    border-radius: 100%; 
+    width: 20%;
+}
+
+.skill_row{
+    margin: 100px auto;
+}
+
+.skill_pic_left1{
+    float: left;
+    width: 23%;
+    padding-right: 95px;
+}
+
+.skill_pic_left2{
+    float: left;
+    width: 25%;
+    padding-right: 80px;
+}
+
+.skill_pic_right{
+    float: right;
+    width: 25%;
+    padding-left: 80px;
+}
+
+.contact{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.myButton {
+	box-shadow: 0px 4px 8px 0px #297f85;
+	background:linear-gradient(to bottom, #39b7d0 5%, #339ea6 100%);
+	background-color:#39b7d0;
+	border-radius:12px;
+	border:0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    margin: 20px auto 100px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #339ea6 5%, #39b7d0 100%);
+	background-color:#339ea6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#bottom_part{
+    text-align: center;
+    font-size: 15px;
+    background-color: #39b7c0;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.footer_links{
+    margin: 0 15px;
+    color: #2c8f96;
+    text-decoration: none;
+}
+
+.footer_links:hover{
+    color: #ffffff;
+}
