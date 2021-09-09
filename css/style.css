@@ -51,7 +51,7 @@ p{
 .bottom_mountain{
     position: absolute;
     bottom: 0;
-    left: 480px;
+    left: 470px;
 }
 
 hr{
@@ -64,8 +64,7 @@ hr{
 }
 
 #mid_part{
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: auto 350px;
     padding-top: 100px;
 }
 
