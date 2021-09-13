@@ -2,244 +2,62 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-
-        <!-- title -->
-
-        <title>Tindog</title>
-
-        <!-- icon -->
-
-        <link rel="icon" href="images/tindog-icon.ico" type="image/x-icon">
-
-        <!-- css link -->
-
+        <title>Soubhik's portfolio</title>
         <link rel="stylesheet" href="css/style.css">
-
-        <!-- bootstrap link -->
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-        
-        <!-- google fonts -->
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100;300;400;700&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-        
-        <!-- font awesome kit -->
-
-        <script src="https://kit.fontawesome.com/d4f24522dc.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
     </head>
-
     <body>
-        <!-- top section -->
-
         <header id="top_part">
-
-            <!-- top container -->
-
-            <div class="container-fluid">
-
-                <!-- navigation bar -->
-
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="#top_part">tindog</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#pricing_part">PRICING</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#bottom_part">DOWNLOAD</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-                <!-- download and description part -->
-
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <h1 class="top_desc">Meet new and interesting dogs nearby.</h1>
-                        <button type="button" class="btn btn-dark btn-lg mr-3 ml-1 download_buttons"><i class="fab fa-apple mr-2"></i>Download</button>
-                        <button type="button" class="btn btn-outline-light btn-lg download_buttons"><i class="fab fa-google-play mr-2"></i>Download</button>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <img class="top_img" src="images/iphone6.png" alt="iphone-img">
-                    </div>
-                </div>
-
-            </div>
-
+            <img class="top_cloud" src="images/cloud.png" alt="cloud-pic">
+            <h1>I'm Soubhik.</h1>
+            <h2>A programmer</h2>
+            <img class="bottom_cloud" src="images/cloud.png" alt="cloud-pic">
+            <img class="bottom_mountain" src="images/mountain.png" alt="mountain-pic">
         </header>
 
-        <!-- feature card section -->
+        <section id="mid_part">
+            <div class="profile">
+                <img class="profile_pic" src="images/profile-img.jpg" alt="profile-img">
+                <h2>Hello.</h2>
+                <p class="intro">I'm Soubhik Sen from Kolkata, India. I have completed my HS from St. Lawrence High School and I'm currently doing my B.Tech in Computer Science and Engineering from Calcutta Institute of Engineering and Management. I'm designing this website to test my front end web development skills.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>My skills.</h2>
 
-        <section id="feature_part">
-
-            <!-- feature container -->
-
-            <div class="container text-center">
-
-                <!-- feature columns -->
-
-                <div class="row">
-                    <div class="col-lg-4 col-12">
-                        <i class="fas fa-check-circle fa-4x feature_imgs feature1_img"></i>
-                        <h2 class="feature_heading">Easy to use.</h2>
-                        <p class="feature_desc">So easy to use, even your dog could do it.</p>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <i class="fas fa-bullseye fa-4x feature_imgs feature2_img"></i>
-                        <h2 class="feature_heading">Elite Clients.</h2>
-                        <p class="feature_desc">We have all the dogs, the greatest dogs.</p>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <i class="fas fa-heart fa-4x feature_imgs feature3_img"></i>
-                        <h2 class="feature_heading">Guaranteed to work.</h2>
-                        <p class="feature_desc">Find the love of your dog's life or your money back.</p>
-                    </div>
+                <div class="skill_row">
+                    <img class="skill_pic_left1" src="images/programming.png" alt="computer-pic">
+                    <h3>C and C++ programming</h3>
+                    <p>I love programming in C/C++. I got into coding from learning C and then went on to learn C++. I am really enthusiastic about these two languages.</p>
                 </div>
 
-            </div>
+                <div class="skill_row">
+                    <img class="skill_pic_right" src="images/website.png" alt="computer-pic">
+                    <h3>Front End Web Development</h3>
+                    <p>I consider myself quite an amateur in this aspect. But I have been steadily learning about it and becoming better. This website is my first try at creating something using HTML and CSS.</p>
+                </div>
 
+                <div class="skill_row">
+                    <img class="skill_pic_left2" src="images/troubleshooting.png" alt="computer-pic">
+                    <h3>Troubleshooting devices</h3>
+                    <p>I also love troubleshooting devices. I find it very interesting as it always leads to learning new things. I have decent experience troubleshooting phones and computers and I do so very often.</p>
+                </div>    
+            </div>
+            <hr>
+            <div class="contact">
+                <h2>Get in Touch</h2>
+                <h3>If you are passionate about computers like me</h3>
+                <p>Let's learn more together and share our knowledge with each other. I'm sure it would be fun.</p>
+                <a href="mailto:soubhiksen45@gmail.com" class="myButton">Contact Me</a>
+            </div>
         </section>
-
-        <!-- review slides -->
-
-        <section id="review_slides">
-
-            <!-- reviews -->
-
-            <div class="text-center">
-                <div id="carouselExampleControls" class="carousel slide slides_part" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <h2 class="review_text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-                            <img class="reviewer_pic mr-4" src="images/dog-img.jpg" alt="dog-img">
-                            <em class="reviewer_name">Pebbles, New York</em>
-                        </div>
-                        <div class="carousel-item">
-                            <h2 class="review_text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-                            <img class="reviewer_pic mr-4" src="images/lady-img.jpg" alt="dog-img">
-                            <em class="reviewer_name">Beverly, Illinois</em>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-            
-            <!-- reviewed by -->
-
-            <div class="container reviewed_part text-center">
-                <div class="row">
-                    <div class="col-3">
-                        <img class="reviewed_img" src="images/TechCrunch.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="reviewed_img" src="images/tnw.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="reviewed_img" src="images/bizinsider.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="reviewed_img" src="images/mashable.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- pricing part -->
-        
-        <section id="pricing_part">
-
-            <!-- pricing container -->
-
-            <div class="container-fluid text-center">
-
-                <!-- pricing headings -->
-
-                <h2 class="pricing_heading">A Plan for Every Dog's Needs</h2>
-                <p class="pricing_desc">Simple and affordable price plans for your and your dog.</p>
-
-                <!-- pricing cards -->
-
-                <div class="row">
-                    <div class="col-lg-4 col-12">
-                        <div class="card mb-3 ml-3 mr-3">
-                            <h2 class="card-header pricing_name tier1_header">Chihuahua</h2>
-                            <div class="card-body">
-                              <h2 class="card-title pricing_price">Free</h2>
-                              <p class="card-text pricing_features">5 Matches Per Day</p>
-                              <p class="card-text pricing_features">10 Messages Per Day</p>
-                              <p class="card-text pricing_features">Unlimited App Usage</p>
-                              <button type="button" class="btn btn-outline-dark btn-lg btn-block signup_button">Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="card mb-3 ml-3 mr-3">
-                            <h2 class="card-header pricing_name tier2_header">Labrador</h2>
-                            <div class="card-body">
-                              <h2 class="card-title pricing_price">$49 / mo</h2>
-                              <p class="card-text pricing_features">Unlimited Matches <span class="badge badge-pill badge-secondary">New</span></p>
-                              <p class="card-text pricing_features">Unlimited Messages <span class="badge badge-pill badge-secondary">New</span></p>
-                              <p class="card-text pricing_features">Unlimited App Usage</p>
-                              <button type="button" class="btn btn-secondary btn-lg btn-block signup_button">Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="card mb-3 ml-3 mr-3">
-                            <h2 class="card-header pricing_name tier3_header">Mastiff</h2>
-                            <div class="card-body">
-                              <h2 class="card-title pricing_price">$99 / mo</h2>
-                              <p class="card-text pricing_features">Priority Listing <span class="badge badge-pill badge-warning">New</span></p>
-                              <p class="card-text pricing_features">Unlimited Matches <span class="badge badge-pill badge-warning">New</span></p>
-                              <p class="card-text pricing_features">Unlimited Messages <span class="badge badge-pill badge-warning">New</span></p>
-                              <p class="card-text pricing_features">Unlimited App Usage</p>
-                              <button type="button" class="btn btn-warning btn-lg btn-block signup_button">Sign Up</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- footer part -->
-
-        <footer id="bottom_part" class="text-center">
-
-            <!-- download part -->
-
-            <div class="container download_part">
-                <h2 class="bottom_download">Find the True Love of Your Dog's Life Today.</h2>
-                <button type="button" class="btn btn-dark btn-lg mr-3 ml-1 download_buttons"><i class="fab fa-apple mr-2"></i>Download</button>
-                <button type="button" class="btn btn-outline-light btn-lg download_buttons"><i class="fab fa-google-play mr-2"></i>Download</button>
-            </div>
-
-            <p class="copyright">© 2021 Tindog. All Rights Reserved.</p>
-
+        <footer id="bottom_part">
+            <a class="footer_links" href="#">LinkedIn</a>
+            <a class="footer_links" href="#">Twitter</a>
+            <a class="footer_links" href="https://github.com/SoubhikSen02">GitHub</a>
+            <p class="copyright">©2021 Soubhik Sen. All Rights Reserved.</p>
         </footer>
-
     </body>
 </html>
